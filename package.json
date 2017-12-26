@@ -6,6 +6,7 @@
     "jest-expo": "23.0.0",
     "react-native-scripts": "1.8.1",
     "react-test-renderer": "16.0.0",
+    "redux-devtools-extension": "^2.13.2",
     "redux-logger": "^3.0.6",
     "remote-redux-devtools": "^0.5.12",
     "remotedev-rn-debugger": "^0.8.3"
@@ -17,7 +18,7 @@
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
     "test": "node node_modules/jest/bin/jest.js --watch",
-    "postinstall": "remotedev-debugger — hostname localhost — port 5678 — injectserver"
+    "postinstall": "remotedev-debugger --hostname localhost --port 5678 --injectserver"
   },
   "remotedev": {
     "hostname": "localhost",
